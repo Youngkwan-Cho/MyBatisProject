@@ -16,7 +16,7 @@ public class MemberController {
 
     @RequestMapping(value="/")
     public String home() {
-        return "board/list";
+        return "home";
     }
 
     @RequestMapping(value="/board/list", method = RequestMethod.GET)

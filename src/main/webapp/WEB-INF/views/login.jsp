@@ -30,6 +30,7 @@
             <label>Password: </label>
             <input type='password' name='password'/>
         </div>
+        <br>
         <button type='submit'>login</button>
     </form>
 </div>
