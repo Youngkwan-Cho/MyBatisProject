@@ -13,6 +13,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="board/add">Add</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../login/login">Logout</a>
+                </li>
             </ul>
         </div>
     </nav>

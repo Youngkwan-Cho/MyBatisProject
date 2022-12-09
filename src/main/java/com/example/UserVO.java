@@ -1,4 +1,4 @@
-package com.example.user;
+package com.example;
 
 public class UserVO {
 

@@ -1,7 +1,5 @@
-package com.example.user;
+package com.example;
 
-import com.example.user.UserServiceImpl;
-import com.example.user.UserVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import javax.servlet.http.HttpSession;
@@ -17,7 +15,7 @@ public class LoginController {
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String login() {
-        return "login.jsp";
+        return "login";
     }
 
 
@@ -25,7 +23,7 @@ public class LoginController {
     public String loginCheck(HttpSession session, UserVO vo) {
         String returnURL = "";
         if (session.getAttribute("login")!=null) {
-            session.removeAttribute("login.jsp");
+            session.removeAttribute("login");
         }
 
         UserVO loginvo= service.getUser(vo);
@@ -36,9 +34,8 @@ public class LoginController {
         }
         else {
             System.out.println("로그인 실패!!");
-            returnURL = "redirect:/login.jsp/login.jsp";
+            returnURL = "redirect:/login/login";
         }
-
         return returnURL;
     }
 

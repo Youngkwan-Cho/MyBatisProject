@@ -1,4 +1,4 @@
-package com.example.member;
+package com.example;
 
 import java.util.Date;
 

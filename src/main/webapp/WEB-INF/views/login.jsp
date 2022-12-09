@@ -20,8 +20,8 @@
 </head>
 <body>
 <div style='width:100%;text-align:center;padding-top:100px'>
-    <img srcr="../img/tree.jpg" height="250">
-    <form method="post" action="loginOk">
+    <img src="../img/55.png" height="250">
+    <form method="post" action="loginOK">
         <div>
             <label>User ID: </label>
             <input type='text' name='userid'/>

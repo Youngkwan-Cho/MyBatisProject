@@ -1,4 +1,4 @@
-package com.example.member;
+package com.example;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,7 +16,7 @@ public class MemberController {
 
     @RequestMapping(value="/")
     public String home() {
-        return "board/index";
+        return "board/list";
     }
 
     @RequestMapping(value="/board/list", method = RequestMethod.GET)
