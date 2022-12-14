@@ -14,7 +14,7 @@
                     <a class="nav-link" href="../add">Add</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../login/login">Logout</a>
+                    <a class="nav-link" href="../../login/login">Logout</a>
                 </li>
             </ul>
         </div>
